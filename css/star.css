@@ -1,4 +1,5 @@
 @media screen and (max-width: 375px) {
+
   .planet-orbit:nth-child(1) {
     border: 1px solid rgba(173, 216, 230, 0.5);
     width: 165px !important;
@@ -14,6 +15,20 @@
 }
 
 @media screen and (max-width: 575px) {
+   
+.planet-orbit .planet-square .jupiter{
+  animation: jupiter- 40s linear infinite !important;
+}
+
+
+  @keyframes jupiter-3 {
+    from {
+      transform: rotate(360deg)  ;
+    }
+    to {
+      transform: rotate(-360deg) ;
+    }
+  }
   .rocket {
     height: 202px !important;
     animation: move 4s linear infinite alternate;
