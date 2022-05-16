@@ -1,4 +1,39 @@
+@media screen and (max-width: 375px) {
+  .planet-orbit:nth-child(1) {
+    border: 1px solid rgba(173, 216, 230, 0.5);
+    width: 165px !important;
+    height: 169px !important;
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d;
+    margin-top: 267.5px;
+    margin-left: calc(44% - (1 * 85px/ 2)) !important;
+    z-index: 10;
+    animation: orbit-1 20s linear infinite;
+  }
+}
+
 @media screen and (max-width: 575px) {
+  .rocket {
+    height: 202px !important;
+    animation: move 4s linear infinite alternate;
+  }
+  .outer-space {
+    width: 245px !important;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .space {
+
+    opacity: 0.9;
+    transform-style: preserve-3d;
+    /* animation: rotate 10s linear infinite; */
+    height: 532px !important;
+    margin-top: -120px !important;
+    overflow: hidden;
+  }
   .slider-st .cont .img-1 img{
    width: 70% !important;
    margin: auto;
@@ -12,13 +47,13 @@
     position: absolute;
     transform-style: preserve-3d;
     margin-top: 267.5px;
-    margin-left: calc(44% - (1 * 85px/ 2)) !important;
+    margin-left: calc(44% - (1 * 80px/ 2)) !important;
     z-index: 10;
     animation: orbit-1 20s linear infinite;
   }
   .space .planet-orbit .planet-square1 h1 {
     font-family: inherit;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     text-align: center;
     margin-top: 50px;
@@ -111,20 +146,22 @@
 
   .planet-orbit .planet-square .two {
     position: relative;
-    bottom: 42px !important;
-    margin-left: 236px !important;
+    bottom: 92px !important;
+    margin-left: 165px !important;
   }
   .planet-orbit .planet-square .one {
     position: relative;
-    margin-left: 131px !important;
-    margin-bottom: -23px !important;
-    margin-top: -99px !important;
+    margin-left: 70px !important;
+    margin-bottom: -25px !important;
+    margin-top: -93px !important;
+    top: 10px;
   }
 
   .planet-orbit .planet-square .three {
     margin-bottom: 267px !important;
-    margin-left: 41px !important;
-    position: relative;
+    margin-left: 23px !important;
+    position: relative !important;
+    top: 30px;
   }
   .planet-orbit .planet-square .four {
     margin-left: 125px !important;
@@ -132,7 +169,7 @@
     bottom: 65px !important;
   }
   .planet-orbit .planet-square .five {
-    margin-left: 270px !important;
+    margin-left: 281px !important;
     position: relative;
     bottom: 150px !important;
   }
@@ -144,8 +181,38 @@
   }
   .planet-orbit .planet-square .seven {
     margin-left: 40px !important;
-    margin-top: -290px !important;
+    margin-top: -271px !important;
     margin-bottom: 0;
+  }
+  .planet-orbit .planet-square .eight {
+    margin-left: 249px !important;
+    margin-top: -250px !important;
+    /* margin-bottom: -376px; */
+  }
+  .planet-orbit .planet-square .jupiter h3 {
+    font-weight: bolde;
+    text-transform: uppercase;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 9px !important;
+    text-shadow: 3px 3px 3px black, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  .planet-orbit .planet-square .jupiter .text-one {
+    position: absolute;
+    left: -17px;
+    text-align: -31px;
+    top: -5px;
+    width: 66px !important;
+    line-height: 14px !important;
+  }
+  .planet-orbit .planet-square .jupiter .text-four {
+    position: absolute;
+    left: -7px;
+    text-align: -31px;
+    top: -5px;
+    width: 41px !important;
+    line-height: 14px !important;
   }
 }
 

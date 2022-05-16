@@ -74,6 +74,9 @@ body {
   font-family: 'Poppins', sans-serif;
 
 }
+.title-footer{
+  margin-left: 20px;
+}
 body::-webkit-scrollbar {
   width: 9px;               /* width of the entire scrollbar */
 }
