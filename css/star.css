@@ -356,18 +356,18 @@
 
  
 .planet-orbit .planet-square .jupiter{
-  animation: jupiter-3 120s linear infinite;
+  animation: jupiter-3 40s linear infinite;
 }
 
-/* 
+
   @keyframes jupiter-3 {
     from {
-      transform: rotate(-360deg)  ;
+      transform: rotate(360deg)  ;
     }
     to {
-      transform: rotate(0deg) ;
+      transform: rotate(-360deg) ;
     }
-  } */
+  }
 
 
 
