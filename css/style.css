@@ -91,6 +91,12 @@ img {
   width: 100%;
   height: auto;
 }
+.planet-orbit .planet-square .jupiter img{
+  width: 100px !important;
+  height: 100px;
+  border-radius: 50%;
+ 
+}
 
 
 
@@ -128,7 +134,7 @@ img {
 
 .space .planet-orbit .planet-square1 h1{
   font-family: inherit;
-  font-size: 28px;
+  font-size: 31px;
   color: white;
   text-align: center;
   margin-top: 50px;

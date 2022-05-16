@@ -1,3 +1,59 @@
+@media screen and (max-width: 575px) {
+  .slider-st .cont .img-1 img{
+   width: 70% !important;
+   margin: auto;
+  }
+
+  .planet-orbit:nth-child(1) {
+    border: 1px solid rgba(173, 216, 230, 0.5);
+    width: 165px !important;
+    height: 169px !important;
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d;
+    margin-top: 267.5px;
+    margin-left: calc(44% - (1 * 85px/ 2)) !important;
+    z-index: 10;
+    animation: orbit-1 20s linear infinite;
+  }
+  .space .planet-orbit .planet-square1 h1 {
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .planet-orbit:nth-child(2) {
+    border: 1px solid rgba(173, 216, 230, 0.5);
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d;
+    margin-top: 263px !important;
+    margin-left: calc(54% - (2 * 85px/ 2)) !important;
+    z-index: 10;
+    animation: orbit-2 20s linear infinite;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 .space .planet-orbit .planet-square1{
 
@@ -137,12 +193,7 @@
     }
   }
 
-  .planet-orbit .planet-square .jupiter img{
-    width: 100px !important;
-    height: 100px;
-   
-  }
-
+ 
 .planet-orbit .planet-square .jupiter{
   animation: jupiter-3 120s linear infinite;
 }
@@ -282,13 +333,18 @@
     
     }
   
-  
+    .jupiter h3{
+      position: absolute;
+      margin-left: 20px;
+      color: rgb(255, 255, 255);
+    }
   
   .jupiter {
+    position: relative;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    box-shadow: 0 0 10px #e59400;
+    /* box-shadow: 0 0 10px #e59400; */
     
     opacity: 1;
     margin-top: -120px;
