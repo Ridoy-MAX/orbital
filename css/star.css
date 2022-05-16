@@ -1,4 +1,13 @@
 @media screen and (max-width: 375px) {
+  .space {
+    opacity: 0.9;
+    transform-style: preserve-3d;
+    /* animation: rotate 10s linear infinite; */
+    height: 800px;
+    top: 0px;
+    overflow: hidden;
+    margin-right: 3px !important;
+  }
 
   .planet-orbit:nth-child(1) {
     border: 1px solid rgba(173, 216, 230, 0.5);
@@ -256,13 +265,14 @@
 
 
 .space {
-    opacity: 0.9;
-    transform-style: preserve-3d;
-    /* animation: rotate 10s linear infinite; */
-    height: 800px;
-    top: 0px;
-    overflow: hidden;
-  }
+	opacity: 0.9;
+	transform-style: preserve-3d;
+	/* animation: rotate 10s linear infinite; */
+	height: 800px;
+	top: 0px;
+	overflow: hidden;
+	margin-right: 32px;
+}
   
   .heading {
     width: 550px;

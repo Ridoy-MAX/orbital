@@ -150,9 +150,10 @@ img {
   }
   } */
   .slider-st .cont .img-1 {
-    -webkit-animation: action 3s infinite  alternate;
-    animation: action 2s infinite  alternate;
-}
+    -webkit-animation: action 3s infinite alternate;
+    animation: action 2s infinite alternate;
+    margin-left: 75px;
+  }
 @-webkit-keyframes action {
     0% { transform: translateY(0); }
     100% { transform: translateY(30px); }
@@ -7972,10 +7973,11 @@ footer .item .copy-right {
 }
 
 footer .item .copy-right p {
-  font-size: 13px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-left: 20px;
 }
 
 footer .item .copy-right p a {
