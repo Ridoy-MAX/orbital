@@ -94,7 +94,10 @@ img {
   width: 100%;
   height: auto;
 }
-
+.intro-section .text h4{
+  margin-top: 90px;
+  color: white;
+}
 
 .coming-soon{
   margin-top: 200px;
@@ -120,8 +123,16 @@ img {
 .main-content{
   background-color: rgba(0, 0, 0, 0.281) !important;
 }
-
-
+.block-sec {
+  position: relative;
+  height: 1000px;
+}
+.block-sec .img-new{
+  height: 933px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
 
 
 
@@ -397,9 +408,12 @@ a:hover, span:hover {
   background-repeat: repeat;
 }
 
-.section-padding {
-  padding: 120px 0;
-}
+
+  .section-padding {
+    /* padding: 98px 0; */
+    padding-top: 114px;
+  }
+
 
 .section-ptb {
   padding: 80px 0;
@@ -4421,12 +4435,12 @@ color: #000 !important;
 }
 
 .services .item-box .icon {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  font-size: 40px;
-  margin-bottom: 30px;
+	position: relative;
+	width: 57px;
+	height: 57px;
+	line-height: 55px;
+	font-size: 30px;
+
 }
 
 .services .item-box .icon:after {
@@ -4446,9 +4460,10 @@ color: #000 !important;
 }
 
 .services .item-box h6 {
-  line-height: 1.8;
-  text-transform: capitalize;
-  margin-bottom: 10px;
+	line-height: 1.8;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	color: white;
 }
 
 .services .rone > div {
@@ -4868,11 +4883,12 @@ color: #000 !important;
   border: 1px solid #12c2e9;
   border-radius: 50%;
   margin-right: 10px;
+  position: relative;
 }
 
 .min-area .content ul.feat li p {
   font-size: 13px;
-  padding-left: 45px;
+  padding-left: 76px;
 }
 
 /* ====================== [ End services ] ====================== */
@@ -7584,14 +7600,14 @@ color: #000 !important;
 }
 
 .call-action .content h2 {
-  font-weight: 700;
-  font-size: 4vw;
-  line-height: 1.2;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
-  color: transparent;
+	font-weight: 700;
+	font-size: 4vw;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #fff;
+	color: #ffafd100;
 }
 
 .call-action .content h2 span {

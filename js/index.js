@@ -12,5 +12,7 @@ function phoneMask(phone) {
     .replace(/^(\(\d{3})(\d)/, "$1) $2")
     .replace(/(\d{3})(\d{1,5})/, "$1-$2")
     .replace(/(-\d{4})\d+?$/, "$1");
+  
+    
 }
 
