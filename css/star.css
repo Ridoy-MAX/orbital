@@ -1595,7 +1595,7 @@
   height: 1px;
   position: absolute;
   margin-top: 8px;
-  margin-left: 665px;
+  margin-right: 665px;
   background: #ffffff;
   border-radius: 50%;
   animation: glow-44 1s linear infinite;
@@ -1615,7 +1615,7 @@
   height: 2px;
   position: absolute;
   margin-top: 10px;
-  margin-left: 478px;
+  margin-right: -478px;
   background: #ffffff;
   border-radius: 50%;
   animation: glow-45 1s linear infinite;
@@ -1635,7 +1635,7 @@
   height: 1px;
   position: absolute;
   margin-top: 890px;
-  margin-left: 668px;
+  margin-left: -668px;
   background: #ffffff;
   border-radius: 50%;
   animation: glow-46 1s linear infinite;
@@ -1735,7 +1735,7 @@
   height: 1px;
   position: absolute;
   margin-top: 869px;
-  margin-left: 772px;
+  margin-right: -772px;
   background: #ffffff;
   border-radius: 50%;
   animation: glow-51 1s linear infinite;
@@ -1775,7 +1775,7 @@
   height: 1px;
   position: absolute;
   margin-top: 47px;
-  margin-left: 958px;
+  margin-right: -958px;
   background: #ffffff;
   border-radius: 50%;
   animation: glow-53 1s linear infinite;
