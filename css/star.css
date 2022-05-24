@@ -24,6 +24,22 @@
 }
 
 @media screen and (max-width: 575px) {
+  .blog-pg.single .pagination span {
+    width: 92% !important;
+    padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .blog-pg.single .comments-area .item .info .replay {
+    position: absolute;
+    right: 0;
+    top: 73px !important;
+    font-size: 14px !important;
+  }
   .block-sec {
     position: relative;
     margin-bottom: 304px;
