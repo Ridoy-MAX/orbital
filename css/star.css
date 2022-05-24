@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 575px) {
+  .block-sec {
+    position: relative;
+    margin-bottom: 304px;
+  }
   .coming-soon {
     margin-top: 200px;
     font-weight: 700;

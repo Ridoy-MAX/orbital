@@ -94,7 +94,7 @@
     }
 }
 
-.content{
+.preloader .content{
     background: #111213;
     display: flex;
     justify-content: center;
