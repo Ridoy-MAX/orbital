@@ -24,6 +24,11 @@
 }
 
 @media screen and (max-width: 575px) {
+  .works-header {
+    min-height: 6vh;
+    position: relative;
+    top: 100px;
+  }
   .service-media .block-sec {
     position: relative;
     margin-bottom: 1857px !important;

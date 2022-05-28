@@ -74,6 +74,13 @@ body {
   font-family: 'Poppins', sans-serif;
 
 }
+.work{
+	background: #fff;
+	position: relative;
+	z-index: 3;
+	overflow-x: hidden !important;
+	margin-top: 209px !important;
+}
 .portfolio .gallery .items .cont h6 {
 	font-weight: 600;
 	margin-bottom: 5px;
@@ -3623,7 +3630,10 @@ color: #000 !important;
 }
 
 .works-header {
-  min-height: 80vh;
+	min-height: 6vh;
+
+	position: relative;
+	top: 205px;
 }
 
 .works-header.hfixd {
