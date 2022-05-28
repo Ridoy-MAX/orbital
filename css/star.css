@@ -24,6 +24,20 @@
 }
 
 @media screen and (max-width: 575px) {
+  .service-media .block-sec {
+    position: relative;
+    margin-bottom: 1857px !important;
+  }
+  .service-media ul li {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 14px;
+  }
+  .blog-pg.single .pagination .icon {
+ margin-left: -120px !important;
+    letter-spacing: 1px;
+  }
   .blog-pg.single .pagination span {
     width: 92% !important;
     padding: 20px;
